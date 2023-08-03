@@ -1,0 +1,122 @@
+* {
+    font-family: 'Montserrat', sem serifa; /*como cada navegador coloca por padrão uma margem e um espaçamento, 
+                                            é padrão zerar esses elementos com as tags padding e margin. tambem 
+                                            o border sizing, pra deixar a caixa do tamanho que queremos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header {
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #99999F;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #6451E1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 42px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-image {
+    margin-left: 125px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+color: #515151;
+font-size: 80px;
+font-weight: 900;
+line-height: normal;
+}
+
+h2 {
+color: #515151;
+font-size: 45px;
+font-weight: 500;
+line-height: normal;
+}
+
+p {
+color: #848484;
+text-align: justify;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+width: 515px;
+margin-top: 32px;
+margin-bottom: 105px;
+}
+
+.button-explorer {
+width: 239px;
+height: 64px;
+font-size: 33px;
+font-weight: bolder;
+border: none;
+border-radius: 30px;
+background: #ADFF00;
+cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    main {
+    width: 390px;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    }
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        width: 90%;
+        margin-left: 29px;
+        margin-top: 45%;
+    }
+
+    h1 {
+       margin-left: -27px;
+       font-size: 63px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -35px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explorer {
+        display: block;
+        width: 270px;
+        height: 64px;
+        margin: 19px -20px auto;
+    }
+}

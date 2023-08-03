@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>Projeto We care</title>
+</head>
+
+<body>
+
+    <!--A tag <header> representa um grupo de 
+    suporte introdutório ou navegacional.Menu superior na aplicação.Poderia ser uma div-->
+
+    <header>
+        <a class="link-header">Página Inicial</a>
+        <a class="link-header">Sobre</a>
+        <a class="link-header">Produtos</a>
+        <a class="link-header">Serviços</a>
+        <a class="link-header">Contatos</a>
+        <button class="button-header">Cadastre-se</button>
+    </header>
+
+    <!--a tag <MAIN> serve para separar o conteudo mais importante do site, no entanto,
+        poderia usar a DIV-->
+    <main>
+        <img src="./img/girl-dog.png" alt="girl-dog" class="logo-image">
+        <!--caso minha imagem nao carregue, para fins de leitor de tela, acessibilidade, 
+    vai aprecer o texto.-->
+
+    <div> <!--PODERIA USAR A TAG <section> sessao, no lugar dessa DIV.
+        Por padrão, DIV, MAIN, HEADER usam uma linha toda. podemos estilizar no css para que o <p>,<img>
+            fiquem em uma linha só, com inline-block e nao fique como display-block.-->
+
+        <h1>We care</h1>
+
+        <h2>About Your Pet</h2>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates ratione, repudiandae, eos iusto, quam placeat recusandae fugit ipsum corporis officia unde molestiae veniam pariatur aspernatur eveniet optio nihil ut soluta!</p>
+
+        <button class="button-explorer">Explore</button>
+    </div>
+</main>
+
+</body>
+
+</html>
